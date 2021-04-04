@@ -1,3 +1,4 @@
+
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -7,6 +8,7 @@ node_modules
 # Jekyll
 _site/
 .sass-cache/
+.jekyll-cache/
 .jekyll-metadata
 
 # OS X
