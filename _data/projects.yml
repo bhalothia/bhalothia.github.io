@@ -1,0 +1,25 @@
+- name: "Enfore.com"
+  date: "2018"
+  description: |
+    Key Responsibilities:
+    - Built and maintained the cloud platform by providing our developers tools and concepts to develop they service oriented software in the most efficient way.
+    - Setup new logging, monitoring and alerting mechanisms, including actionable items for each one of the monitors
+    - Tech stack: Terraform, EKS, Self-hosted Gitlab, MongoDB, Elasticsearch, Kafka
+  url: "https://www.enfore.com/global"
+  image: "enfore-logo.png"
+
+
+
+- name: "Moebel.de"
+  date: "2018"
+  description: |
+    Key Responsibilities:
+    - Introduced best code management practices into the organization to treat infrastructure as code - this involves conceptualization, implementation, and maintenance of the whole Cloudformation architecture
+    - Moved away from hosted gitlab to a self-hosted gitlab that increased developer productivity ~30 % in terms of latency and build timelines
+    - Setup new logging, monitoring and alerting mechanisms, including actionable items for each one of the monitors
+    - Explored Kubernetes offering on AWS in detail, along with ECS, in order to move to a better platform for containerized services. In the end, as an organization we decided to stick with ECS, but that's a whole different story
+    - Moved one of the crucial services to ECS as a prototype and created detailed documentation for other teams to follow the same
+    - Regular training to developers-in-need, when it comes to AWS, containers or any other DevOpsy stuff.
+    - Regular maintenance tasks for the common platform services like gitlab, artifactory, sonarqube, mongodb, algolia etc.
+  url: "https://www.moebel.de"
+  image: "moebel-logo.png"
