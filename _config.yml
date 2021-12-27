@@ -23,11 +23,6 @@ website_repo_url: "https://github.com/bhalothia/bhalothia.github.io"
 
 # URLs
 contact_urls:
-  twitter:
-    url: "https://twitter.com/bhalothiaa"
-    label: "Twitter"
-    icon: "twitter-square"
-    username: "@bhalothiaa"
   linkedin:
     url: "https://uk.linkedin.com/in/bhalothia"
     label: "LinkedIn"
@@ -58,8 +53,12 @@ rouge: pygments
 timezone: 'Europe/London'
 
 # Plugins (GitHub Pages only support a few)
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
+  - jemoji
+  - jekyll-gist
+  - kramdown-parser-gfm
+  - kramdown
   
