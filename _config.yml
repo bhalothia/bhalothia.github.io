@@ -5,13 +5,12 @@ url: "https://bhalothia.io"
 # Internal nav
 nav:
   main:
-    blog: "/blog"
-    # speaking: "/speaking"
+    archive: "/archive"
+    # blog: "/blog"
     projects: "/projects"
-  blog:
-    all: "/blog"
-    # popular: "/blog/popular"
-    tags: "/blog/tags"
+  archive:
+    all: "/archive"
+    tags: "/archive/tags"
     rss: "/feed.xml"
 
 # Bio settings
@@ -44,8 +43,8 @@ contact_urls:
 
 # Jekyll build settings
 paginate: 10
-paginate_path: "/blog/page:num"
-permalink: "/blog/:year/:month/:day/:title"
+paginate_path: "/archive/page:num"
+permalink: "/archive/:year/:month/:day/:title"
 sass:
   sass_dir: "/assets/css"
   style: :compressed

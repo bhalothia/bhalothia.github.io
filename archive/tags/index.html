@@ -1,20 +1,20 @@
 ---
 layout: default
 title: "Virendra Singh Bhalothia: Tags"
-nav_item: blog
-nav_item_blog: tags
+nav_item: archive
+nav_item_archive: tags
 header_title: Tags
-include_header: blog_header.html
+include_header: archive_header.html
 is_tags_page: true
 include_comments:
   count: true
 ---
 
-{% include blog-nav.html %}
+{% include archive-nav.html %}
 
 {% comment %}
   This is an ugly hack to sort a list based on the following idea: 
-  http://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog/21002505#21002505
+  http://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-archive/21002505#21002505
 {% endcomment %}
 
 {% capture tags %}{% for tag in site.tags %}{{ tag[0] }}|{% endfor %}{% endcapture %}
