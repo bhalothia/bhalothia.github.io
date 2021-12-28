@@ -5,13 +5,12 @@ url: "https://bhalothia.io"
 # Internal nav
 nav:
   main:
-    blog: "/blog"
-    # speaking: "/speaking"
+    archive: "/archive"
+    # blog: "/blog"
     projects: "/projects"
-  blog:
-    all: "/blog"
-    # popular: "/blog/popular"
-    tags: "/blog/tags"
+  archive:
+    all: "/archive"
+    tags: "/archive/tags"
     rss: "/feed.xml"
 
 # Bio settings
@@ -23,11 +22,6 @@ website_repo_url: "https://github.com/bhalothia/bhalothia.github.io"
 
 # URLs
 contact_urls:
-  twitter:
-    url: "https://twitter.com/bhalothiaa"
-    label: "Twitter"
-    icon: "twitter-square"
-    username: "@bhalothiaa"
   linkedin:
     url: "https://uk.linkedin.com/in/bhalothia"
     label: "LinkedIn"
@@ -49,8 +43,8 @@ contact_urls:
 
 # Jekyll build settings
 paginate: 10
-paginate_path: "/blog/page:num"
-permalink: "/blog/:year/:month/:day/:title"
+paginate_path: "/archive/page:num"
+permalink: "/archive/:year/:month/:day/:title"
 sass:
   sass_dir: "/assets/css"
   style: :compressed
@@ -58,8 +52,12 @@ rouge: pygments
 timezone: 'Europe/London'
 
 # Plugins (GitHub Pages only support a few)
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
+  - jemoji
+  - jekyll-gist
+  - kramdown-parser-gfm
+  - kramdown
   

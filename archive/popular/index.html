@@ -1,15 +1,15 @@
 <!-- ---
 layout: default
-title: "Virendra Singh bhalothia: Popular Blog"
-nav_item: blog
-nav_item_blog: popular
+title: "Virendra Singh bhalothia: Popular Archive"
+nav_item: archive
+nav_item_archive: popular
 header_title: Popular posts
-include_header: blog_header.html
+include_header: archive_header.html
 include_comments:
   count: true
 ---
 
-{% include blog-nav.html %}
+{% include archive-nav.html %}
 
 {% for post in site.posts %}
   {% if post.add_to_popular_list %}

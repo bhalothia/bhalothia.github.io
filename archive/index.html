@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Virendra Singh Bhalothia: Blog"
-redirect_from: "/blog"
-nav_item: blog
-nav_item_blog: all
+title: "Virendra Singh Bhalothia: archive"
+redirect_from: "/archive"
+nav_item: archive
+nav_item_archive: all
 header_title: Experiences and Opinions
-include_header: blog_header.html
+include_header: archive_header.html
 include_comments:
   count: true
 ---
 
-{% include blog-nav.html %}
+{% include archive-nav.html %}
 {% for post in paginator.posts %}
   {% include post-outline.html post=post %}
 {% endfor %}
