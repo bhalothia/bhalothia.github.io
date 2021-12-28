@@ -15,7 +15,7 @@ nav:
 
 # Bio settings
 name: "Virendra Singh Bhalothia"
-slogan: "I'm a Systems Engineer with over a decade of experience working on various phases of SDLC and most prominently in treating Infrastructure as Code and Site Reliability Operations."
+slogan: "I'm a Systems Engineer. Check out my new <a href='https://blog.bhalothia.io/' target='_blank'>Blog</a> "
 description: "My Tech Rants!"
 thumbnail_path: "tdb.jpg"
 website_repo_url: "https://github.com/bhalothia/bhalothia.github.io"
